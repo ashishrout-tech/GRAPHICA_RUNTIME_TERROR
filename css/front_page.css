@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Koh+Santepheap:wght@400;700;900&family=Prata&display=swap");
+/* front page */
+/* navigation bar */
+body {
+  background-color: hsl(0, 0%, 95%) !important;
+  background-repeat: repeat-y;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+}
+nav {
+  background: rgb(255, 255, 255) !important;
+}
+img {
+  width: 10.5rem !important;
+  height: 6rem !important;
+}
+.nav-item {
+  margin-bottom: 0.2rem;
+}
+#mainnavbar {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+#mainnavbar .navbar-brand {
+  color: #161616;
+}
+
+#mainnavbar .nav-link {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: all 0.4s !important;
+}
+
+#mainnavbar .nav-link:hover {
+  /* text-decoration: underline double rgb(62, 110, 155); */
+  box-shadow: rgb(62, 110, 155) 0px 5px 0px !important;
+  color: rgb(62, 110, 155);
+  background-color: #ffffff;
+}
+
+.ennn {
+  color: rgb(255, 255, 255);
+}
+
+.navbar.scroll {
+  background: rgb(0, 0, 0) !important;
+  transition: background-color 600ms;
+}
+.navbar-toggler-icon {
+  background-color: black;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .navbar-brand {
+    /* margin-left: 180px; */
+  }
+  #navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-item {
+    /* margin-left: 2px; */
+  }
+}
+
+@media (min-width: 1100px) {
+  nav {
+    padding-right: 170px;
+    padding-left: 170px;
+  }
+  .nav-item {
+    margin-left: 30px;
+  }
+}
+
+.navbar-nav,
+.nav-item {
+  text-align: center;
+}
+#member_button {
+  padding-top: 0.8rem;
+  color: white;
+  font-weight: 700;
+  background-color: turquoise;
+  /* margin: auto; */
+  width: 9em;
+  height: 3em;
+  border-radius: 15em;
+  transition: all 0.3s;
+  font-size: 1.5em;
+}
+#member_button:hover {
+  box-shadow: rgb(177, 171, 171) 1px 6px 10px;
+  color: rgb(102, 96, 94);
+}
+/* Body  */
+/* Class Helper */
+.upper_body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5em;
+  /* border: white solid 2px; */
+  width: 100%;
+  height: 35em;
+  margin: auto;
+}
+.left_u_b {
+  /* border: yellowgreen solid 2px; */
+  text-align: center;
+  padding-top: 10%;
+  font-family: "Cabin", sans-serif;
+}
+#your_class_helper {
+  font-family: "Cabin", sans-serif;
+  font-size: 4em;
+  line-height: 1em;
+}
+#class_helper_quote {
+  font-size: 1.5em;
+}
+.right_u_b {
+  /* border: solid white 2px; */
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/u_body.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* upper body end */
+/* MATH */
+
+.math_box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  /* border: yellow solid 2px; */
+  width: 85em;
+  height: 25em;
+}
+.left_part {
+  color: white;
+  font-size: 4em;
+  font-family: "Cabin", sans-serif;
+  background-image: url(../images/math.jpeg);
+  background-size: 90%;
+  text-align: center;
+  padding-top: 20%;
+  /* border: solid green 5px; */
+  border-radius: 0.3em 0em 0em 0.3em;
+}
+.right_part {
+  padding-top: 15%;
+  text-align: center;
+  /* border: palevioletred solid 5px; */
+  border-radius: 0em 1em 1em 0em;
+  background: linear-gradient(
+    164deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.rp1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#rp1_1,
+#rp1_2 {
+  color: black;
+  border-radius: 10em;
+  background-color: transparent;
+  padding-top: 0.3em;
+  font-size: 2em;
+  width: 7.5em;
+  height: 2.2em;
+  margin: auto;
+  border: whitesmoke solid 2px;
+  transition: all 0.3s;
+}
+#rp1_1:hover,
+#rp1_2:hover {
+  color: white;
+  box-shadow: rgb(119, 117, 117) 1px 6px 10px;
+}
+.math_ppp {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+/* MATH END */
+/* PHYSICS */
+.physics_box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  /* border: yellow solid 2px; */
+  width: 85em;
+  height: 25em;
+}
+.ep_leftpart {
+  padding-top: 15%;
+  text-align: center;
+  /* border: palevioletred solid 5px; */
+  border-radius: 1em 0em 0em 1em;
+  background: linear-gradient(
+    164deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 69, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.ep_lp1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#ep_lp1_1,
+#ep_lp1_2 {
+  color: black;
+  border-radius: 10em;
+  background-color: transparent;
+  padding-top: 0.3em;
+  font-size: 2em;
+  width: 7.5em;
+  height: 2.2em;
+  margin: auto;
+  border: whitesmoke solid 2px;
+  transition: all 0.3s;
+}
+#ep_lp1_1:hover,
+#ep_lp1_2:hover {
+  color: white;
+  box-shadow: rgb(119, 117, 117) 1px 6px 10px;
+}
+.physics_ppp {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+.ep_right_part {
+  color: white;
+  font-size: 4em;
+  font-family: "Cabin", sans-serif;
+  background-image: url(../images/Physics.jpg);
+  background-size: 90%;
+  text-align: center;
+  padding-top: 20%;
+  /* border: solid green 5px; */
+  border-radius: 0em 0.3em 0.3em 0em;
+}
+/* PHYSICS END */
+/* BXE */
+.bxe_box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  /* border: yellow solid 2px; */
+  width: 85em;
+  height: 25em;
+}
+.bxe {
+  color: white;
+  font-size: 4em;
+  font-family: "Cabin", sans-serif;
+  background-image: url(../images/BXE.jpg);
+  background-size: 90%;
+  text-align: center;
+  padding-top: 20%;
+  /* border: solid green 5px; */
+  border-radius: 0.3em 0em 0em 0.3em;
+}
+.bxe_right_part {
+  padding-top: 15%;
+  text-align: center;
+  /* border: palevioletred solid 5px; */
+  border-radius: 0em 1em 1em 0em;
+  background-image: linear-gradient(140deg, #36d1dc, #5b86e5);
+}
+.bxe_rp1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#bxe_rp1_1,
+#bxe_rp1_2 {
+  color: black;
+  border-radius: 10em;
+  background-color: transparent;
+  padding-top: 0.3em;
+  font-size: 2em;
+  width: 7.5em;
+  height: 2.2em;
+  margin: auto;
+  border: whitesmoke solid 2px;
+  transition: all 0.3s;
+}
+#bxe_rp1_1:hover,
+#bxe_rp1_2:hover {
+  color: white;
+  box-shadow: rgb(119, 117, 117) 1px 6px 10px;
+}
+.bxe_ppp {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+/* BXE END */
+.paps {
+  color: white;
+  font-size: 4em;
+  font-family: "Cabin", sans-serif;
+  background-image: url(../images/PAPS.png);
+  background-size: 90%;
+  text-align: center;
+  padding-top: 20%;
+  /* border: solid green 5px; */
+  border-radius: 0em 0.3em 0.3em 0em;
+}
+.evs {
+  color: white;
+  font-size: 4em;
+  font-family: "Cabin", sans-serif;
+  background-image: url(../images/evs.jpeg);
+  background-size: 90%;
+  text-align: center;
+  padding-top: 20%;
+  /* border: solid green 5px; */
+  border-radius: 0.3em 0em 0em 0.3em;
+}
+.sme {
+  color: rgb(255, 255, 255);
+  font-size: 4em;
+  font-family: "Cabin", sans-serif;
+  background-image: url(../images/SME.jpeg);
+  background-size: 90%;
+  text-align: center;
+  padding-top: 20%;
+  /* border: solid green 5px; */
+  border-radius: 0em 0.3em 0.3em 0em;
+}
+/* FOOTER */
+.footerrr {
+  height: 20em;
+  color: black;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+.footerrr_left {
+  border: blanchedalmond solid 2px;
+  text-align: center;
+  padding-top: 20%;
+}
+.footerrr_middle {
+  color: white;
+  text-align: center;
+  border: blanchedalmond solid 2px;
+  width: 30em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 10em;
+  padding-top: 3%;
+  line-height: 3em;
+}
+.footerrr_right {
+  margin: auto;
+  padding-left: 1em;
+  border: springgreen solid 2px;
+}
+
+.math_box:hover,
+.physics_box:hover,
+.bxe_box:hover {
+  box-shadow: 2px 2px 20px 1px rgb(73, 73, 73);
+}
+
+.math_box,
+.physics_box,
+.bxe_box {
+  border-radius: 20px;
+}

@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ole&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Koh+Santepheap:wght@400;700;900&family=Prata&display=swap");
+/* front page */
+/* navigation bar */
+body {
+  background-color: #ececec9f !important;
+  background-repeat: repeat-y;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+}
+.navbarr {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: none;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.nav_links {
+  display: grid;
+  grid-template-columns: repeat(4, 10em);
+  padding: 1em;
+  position: relative;
+  top: 1.5em;
+  left: 1em;
+}
+.nav_logo {
+  display: flex;
+  margin-left: auto;
+  padding: 1em;
+}
+#logo {
+  height: 5em;
+  width: 9em;
+  position: relative;
+  bottom: 0.5em;
+}
+
+#developer {
+  margin-right: 1em;
+  position: relative;
+  bottom: 0.3em;
+}
+.nav_text {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times;
+}
+.nav_text:hover {
+  color: rgb(199, 195, 195);
+  text-decoration: underline double;
+}
+.helper {
+  padding-left: 0.5em;
+  font-family: "Lobster", cursive;
+  text-decoration: none;
+  color: rgb(0, 255, 221);
+  font-size: 2.1em;
+}
+.helper:hover {
+  color: rgb(30, 40, 180);
+}
+
+.heading {
+  position: relative;
+  height: 70vh;
+}
+
+.subjectHeading {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  animation: rotate 1s;
+  animation-fill-mode: backwards;
+}
+
+.wave {
+  overflow: hidden;
+}
+
+.theoryHeading,
+.practicalHeading,
+.assignmentHeading {
+  text-align: center;
+  margin: 50px;
+  animation: moveInLeft 2s;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: "Prata", serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.accordion:hover {
+  background-color: #eee;
+}
+.active,
+.accordionn:hover {
+  background-color: #eee;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+/* Style buttons */
+
+.btn {
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+  background-color: rgb(52, 199, 174);
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+  font-family: "Readex Pro", sans-serif;
+}
+
+nav {
+  background: rgb(255, 255, 255) !important;
+}
+img {
+  width: 10.5rem !important;
+  height: 6rem !important;
+}
+.nav-item {
+  margin-bottom: 0.2rem;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#mainnavbar {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+#mainnavbar .navbar-brand {
+  color: #161616;
+}
+.Logo {
+  width: 150px !important;
+  height: 80px !important;
+}
+
+#mainnavbar .nav-link {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: all 0.4s !important;
+}
+
+#mainnavbar .nav-link:hover {
+  /* text-decoration: underline double rgb(62, 110, 155); */
+  box-shadow: rgb(62, 110, 155) 0px 5px 0px !important;
+  color: rgb(62, 110, 155);
+  background-color: #ffffff;
+}
+
+.ennn {
+  color: rgb(255, 255, 255);
+}
+
+.navbar.scroll {
+  background: rgb(0, 0, 0) !important;
+  transition: background-color 600ms;
+}
+.navbar-toggler-icon {
+  background-color: black;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .navbar-brand {
+    /* margin-left: 180px; */
+  }
+  #navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-item {
+    /* margin-left: 2px; */
+  }
+}
+
+@media (min-width: 1100px) {
+  nav {
+    padding-right: 170px;
+    padding-left: 170px;
+  }
+  .nav-item {
+    margin-left: 30px;
+  }
+}
+
+.navbar-nav,
+.nav-item {
+  text-align: center;
+}
+#member_button {
+  padding-top: 0.8rem;
+  color: white;
+  font-weight: 700;
+  background-color: turquoise;
+  /* margin: auto; */
+  width: 9em;
+  height: 3em;
+  border-radius: 15em;
+  transition: all 0.3s;
+  font-size: 1.5em;
+  margin-top: 1rem;
+}
+#member_button:hover {
+  box-shadow: rgb(177, 171, 171) 1px 6px 10px;
+  color: rgb(102, 96, 94);
+}

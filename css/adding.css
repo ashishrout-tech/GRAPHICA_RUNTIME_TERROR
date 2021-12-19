@@ -1,0 +1,120 @@
+.addContent {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 300px;
+  background-image: linear-gradient(140deg, #36d1dc, #5b86e5);
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  border: 15px white solid;
+}
+
+form {
+  width: 80%;
+}
+
+form div {
+  margin-bottom: 0.9rem;
+}
+form div:last-child {
+  margin-bottom: 0rem;
+}
+.Topic_Unit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Topic_Unit select {
+  border-radius: 5px;
+  width: 170px;
+  height: 40px;
+  border: 4px rgb(216, 168, 168) solid;
+}
+
+.Title_Link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Title_Link input {
+  border-radius: 5px;
+  width: 180px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: scroll;
+  border-radius: none;
+  text-decoration: none;
+  border: 4px rgb(216, 168, 168) solid;
+}
+
+.Add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ACAdd {
+  border-radius: 20%;
+  height: 60px;
+  width: 150px;
+}
+.ACTopic {
+  /* font-family: 'Cabin', sans-serif;
+font-family: 'Koh Santepheap', cursive; */
+  font-family: "Prata", serif;
+  font-weight: 700;
+  color: rgb(9, 10, 10);
+  font-size: 1.5rem;
+}
+
+.ACUnit {
+  font-family: "Prata", serif;
+  font-weight: 700;
+  color: rgb(9, 10, 10);
+  font-size: 1.5rem;
+}
+.ACTitle {
+  font-family: "Prata", serif;
+  font-weight: 700;
+  color: rgb(9, 10, 10);
+  font-size: 1.5rem;
+}
+.ACLinkName {
+  font-family: "Prata", serif;
+  font-weight: 700;
+  color: rgb(9, 10, 10);
+  font-size: 1.5rem;
+}
+.ACAdd {
+  font-family: "Prata", serif;
+  font-weight: 700;
+  color: rgb(9, 10, 10);
+  font-size: 1.5rem;
+}
+.header__links button:last-child {
+  border-radius: 100px;
+  border: none;
+  width: 150px;
+  font-size: 1.2rem;
+  background-color: white;
+  color: var(--Verydarkdesaturatedblue);
+  font-weight: 700;
+  font-family: "Barlow", sans-serif;
+  padding: 0.9rem 2rem;
+  text-transform: uppercase;
+  transition: all 200ms ease-in-out;
+  background-color: #777777;
+  color: white;
+  border: 3px rgb(236, 236, 236) solid;
+  box-shadow: 5px 5px 5px 1px rgba(48, 48, 48, 0.2);
+}
+
+.header__links button:last-child:hover {
+  background-color: rgb(13, 112, 99);
+}

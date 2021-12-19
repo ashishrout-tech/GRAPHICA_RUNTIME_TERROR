@@ -1,0 +1,52 @@
+.Content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.theory {
+  width: 80%;
+}
+.accordion {
+  border-radius: 5px !important;
+  margin-bottom: 10px;
+  height: 60px;
+}
+.panel {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center !important; */
+  line-height: 3.6rem;
+
+  /* position: relative; */
+  padding: auto;
+}
+.panel a {
+  display: block;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+}
+
+.YtLink {
+  margin-left: 2rem !important;
+  display: ;
+}
+
+.theoryHeading {
+  font-family: "Prata", serif;
+  font-weight: 600;
+  font-size: 3rem;
+  text-decoration: underline 4px;
+}
+
+.downloadBtn,
+.DC {
+  display: inline !important;
+}
+
+.downloadBtn {
+  margin-left: 6px;
+}
